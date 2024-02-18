@@ -23,7 +23,7 @@ const ProfilePage = () => {
     }, [session?.user.id]);
 
     const handleEdit = (post) => {
-        router.push(`update-prompt?id=${post._id}`);
+        router.push(`edit-prompt?id=${post._id}`);
     }
 
     const handleDelete = async (post) => {
